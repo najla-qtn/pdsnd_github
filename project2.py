@@ -22,7 +22,7 @@ def get_filters():
         if city in ['chicago','washington','new york']:
            break
         else:
-           city=input('Enter the city name again\n').lower()
+           city=input('Enter the city name again..\n').lower()
 
     # TO DO: get user input for month (all, january, february, ... , june)
     month=input('Which month all? January, February, March, April, May OR June?\n').lower()
