@@ -22,7 +22,7 @@ def get_filters():
         if city in ['chicago','washington','new york']:
            break
         else:
-           city=input('Enter the city name again\n').lower()
+           city=input('Enter the city name again..\n').lower()
 
     # TO DO: get user input for month (all, january, february, ... , june)
     month=input('Which month all? January, February, March, April, May OR June?\n').lower()
@@ -30,7 +30,7 @@ def get_filters():
         if month in ['all','january', 'february', 'march', 'april', 'may', 'june']:
            break
         else:
-           month=input('Enter the month again.. all, January, February, March, April, May or June?\n').lower()
+           month=input('ç all, January, February, March, April, May or June?\n').lower()
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     day=input('Which day?\n').lower()
@@ -47,7 +47,7 @@ def get_filters():
 #2
 def load_data(city, month, day):
     """
-    Loads data for the specified city and filters by month and day if applicable.
+    Loads data for the specified city and filters by month and day.
 
     Args:
         (str) city - name of the city to analyze
